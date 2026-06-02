@@ -2,3 +2,4 @@
 Bu loyihani birgalikda yaratamiz
 
 # Qurbonbayev Jo'shqinbekgit
+# Rustambek Baltayev
