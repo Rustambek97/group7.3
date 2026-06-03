@@ -4,3 +4,6 @@ Bu loyihani birgalikda yaratamiz
 # Rustambek Baltayev 
 men rustambek.html qo'shdim
 unga 1 ta h1 kiritdim
+
+# Qurbonbayev Jo'shqinbekgit
+# Rustambek Baltayev
