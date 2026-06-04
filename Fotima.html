@@ -1,59 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fotima</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: white;
+            font-family: sans-serif;
+            margin: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .table-title {
+            text-align: center;
+            color: green;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: green;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: lightgray;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Fotima</h1>
 
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMsIXO7KxKWCGi0dNcqSq-Ddz8GhA9w9KmRg&s" alt="">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMsIXO7KxKWCGi0dNcqSq-Ddz8GhA9w9KmRg&s" alt="Fotima">
 
-    <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-md">
-        <h2 class="text-2xl font-bold mb-4 text-gray-800 text-center">Foydalanuvchilar Ro'yxati</h2>
+    <div class="container">
+        <h2 class="table-title">Foydalanuvchilar Ro'yxati</h2>
 
-        <div class="overflow-x-auto">
-            <table class="w-full border-collapse border border-gray-200 min-w-full">
-                <thead>
-                    <tr class="bg-emerald-600 text-white">
-                        <th class="border border-gray-200 px-4 py-3 text-left font-semibold">T/r</th>
-                        <th class="border border-gray-200 px-4 py-3 text-left font-semibold">Ism</th>
-                        <th class="border border-gray-200 px-4 py-3 text-left font-semibold">Tug'ilgan sana</th>
-                        <th class="border border-gray-200 px-4 py-3 text-left font-semibold">Kasbi</th>
-                    </tr>
-                </thead>
-                <tbody class="divide-y divide-gray-200">
-                    <tr class="hover:bg-gray-50 text-gray-700">
-                        <td class="border border-gray-200 px-4 py-3">1</td>
-                        <td class="border border-gray-200 px-4 py-3 font-medium">Anvar</td>
-                        <td class="border border-gray-200 px-4 py-3">15.03.1995</td>
-                        <td class="border border-gray-200 px-4 py-3">Dasturchi</td>
-                    </tr>
-                    <tr class="bg-gray-50 hover:bg-gray-100 text-gray-700">
-                        <td class="border border-gray-200 px-4 py-3">2</td>
-                        <td class="border border-gray-200 px-4 py-3 font-medium">Malika</td>
-                        <td class="border border-gray-200 px-4 py-3">22.08.1998</td>
-                        <td class="border border-gray-200 px-4 py-3">Shifokor</td>
-                    </tr>
-                    <tr class="hover:bg-gray-50 text-gray-700">
-                        <td class="border border-gray-200 px-4 py-3">3</td>
-                        <td class="border border-gray-200 px-4 py-3 font-medium">Jasur</td>
-                        <td class="border border-gray-200 px-4 py-3">05.11.2000</td>
-                        <td class="border border-gray-200 px-4 py-3">O'qituvchi</td>
-                    </tr>
-                    <tr class="bg-gray-50 hover:bg-gray-100 text-gray-700">
-                        <td class="border border-gray-200 px-4 py-3">4</td>
-                        <td class="border border-gray-200 px-4 py-3 font-medium">Laylo</td>
-                        <td class="border border-gray-200 px-4 py-3">19.01.2002</td>
-                        <td class="border border-gray-200 px-4 py-3">Dizayner</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>T/r</th>
+                    <th>Ism</th>
+                    <th>Tug'ilgan sana</th>
+                    <th>Kasbi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Anvar</td>
+                    <td>15.03.1995</td>
+                    <td>Dasturchi</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Malika</td>
+                    <td>22.08.1998</td>
+                    <td>Shifokor</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Jasur</td>
+                    <td>05.11.2000</td>
+                    <td>O'qituvchi</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Laylo</td>
+                    <td>19.01.2002</td>
+                    <td>Dizayner</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </body>
 

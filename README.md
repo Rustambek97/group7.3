@@ -2,6 +2,9 @@
 Bu loyihani birgalikda yaratamiz
 
 <<<<<<< HEAD
+# Oltibaev Miraziz
+=======
+<<<<<<< HEAD
 # Allayarov Ibrohim
 =======
 <<<<<<< HEAD
@@ -48,6 +51,8 @@ men titleni o'zgartirdim
 >>>>>>> 5c22b56ae6954469b55760824577d9300ebcdc75
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 >>>>>>> 22e0315877410af7a0402823db432b57385573e9
 >>>>>>> 92d455d7f88742ec881026a06fb995db291620f5
 <<<<<<< HEAD
@@ -58,5 +63,9 @@ men titleni o'zgartirdim
 men rasm qo'shdim
 >>>>>>> 0bcf23d4d087138e0fc9fb6bec0c96385ef368f8
 >>>>>>> 926308ddc0ba07a9106e4f364f1bf19fd64194bf
+<<<<<<< HEAD
 #  Ikromov xudashkur
 men h1 qo'shdim
+=======
+>>>>>>> 37c022d0026ade8fa58722d95eec7a29d9e1d7ea
+>>>>>>> e339555f3bf2bfb7c5f1063f2280b6c621e9a71d
