@@ -37,3 +37,6 @@ men joshqinbek.htmlni qoshdim unga h1 qo'shdim
 =======
 >>>>>>> 22e0315877410af7a0402823db432b57385573e9
 >>>>>>> 92d455d7f88742ec881026a06fb995db291620f5
+
+# Qurbonbayev Jo'shqinbek
+men rasm qo'shdim
