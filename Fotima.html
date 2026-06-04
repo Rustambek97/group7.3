@@ -8,53 +8,66 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <h1>Fotima</h1>
+<body class="bg-gray-100 min-h-screen py-10 px-4 flex flex-col items-center justify-center">
 
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMsIXO7KxKWCGi0dNcqSq-Ddz8GhA9w9KmRg&s" alt="">
+    <div class="text-center mb-8">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMsIXO7KxKWCGi0dNcqSq-Ddz8GhA9w9KmRg&s" 
+             alt="Fotima logotipi yoki rasmi" 
+             class="w-48 h-auto mx-auto rounded-xl object-cover shadow-lg mb-4 border border-gray-200">
+        <h1 class="text-3xl font-extrabold text-gray-800 tracking-wide">Fotima</h1>
+    </div>
 
-    <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-md">
-        <h2 class="text-2xl font-bold mb-4 text-gray-800 text-center">Foydalanuvchilar Ro'yxati</h2>
+    <div class="w-full max-w-4xl bg-white p-6 rounded-2xl shadow-xl">
+        <h2 class="text-2xl font-bold mb-6 text-gray-800 text-center">Foydalanuvchilar Ro'yxati</h2>
 
-        <div class="overflow-x-auto">
-            <table class="w-full border-collapse border border-gray-200 min-w-full">
+        <div class="overflow-x-auto rounded-xl border border-gray-200">
+            <table class="w-full border-collapse min-w-full">
                 <thead>
                     <tr class="bg-emerald-600 text-white">
-                        <th class="border border-gray-200 px-4 py-3 text-left font-semibold">T/r</th>
-                        <th class="border border-gray-200 px-4 py-3 text-left font-semibold">Ism</th>
-                        <th class="border border-gray-200 px-4 py-3 text-left font-semibold">Tug'ilgan sana</th>
-                        <th class="border border-gray-200 px-4 py-3 text-left font-semibold">Kasbi</th>
+                        <th class="px-6 py-4 text-left font-semibold text-sm uppercase tracking-wider">T/r</th>
+                        <th class="px-6 py-4 text-left font-semibold text-sm uppercase tracking-wider">Ism</th>
+                        <th class="px-6 py-4 text-left font-semibold text-sm uppercase tracking-wider">Tug'ilgan sana</th>
+                        <th class="px-6 py-4 text-left font-semibold text-sm uppercase tracking-wider">Kasbi</th>
                     </tr>
                 </thead>
                 <tbody class="divide-y divide-gray-200">
-                    <tr class="hover:bg-gray-50 text-gray-700">
-                        <td class="border border-gray-200 px-4 py-3">1</td>
-                        <td class="border border-gray-200 px-4 py-3 font-medium">Anvar</td>
-                        <td class="border border-gray-200 px-4 py-3">15.03.1995</td>
-                        <td class="border border-gray-200 px-4 py-3">Dasturchi</td>
+                    <tr class="hover:bg-emerald-5/50 transition-colors duration-200 text-gray-700">
+                        <td class="px-6 py-4 text-sm font-medium text-gray-500">1</td>
+                        <td class="px-6 py-4 text-sm font-semibold text-gray-900">Anvar</td>
+                        <td class="px-6 py-4 text-sm">15.03.1995</td>
+                        <td class="px-6 py-4 text-sm">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Dasturchi</span>
+                        </td>
                     </tr>
-                    <tr class="bg-gray-50 hover:bg-gray-100 text-gray-700">
-                        <td class="border border-gray-200 px-4 py-3">2</td>
-                        <td class="border border-gray-200 px-4 py-3 font-medium">Malika</td>
-                        <td class="border border-gray-200 px-4 py-3">22.08.1998</td>
-                        <td class="border border-gray-200 px-4 py-3">Shifokor</td>
+                    <tr class="bg-gray-50 hover:bg-emerald-5/50 transition-colors duration-200 text-gray-700">
+                        <td class="px-6 py-4 text-sm font-medium text-gray-500">2</td>
+                        <td class="px-6 py-4 text-sm font-semibold text-gray-900">Malika</td>
+                        <td class="px-6 py-4 text-sm">22.08.1998</td>
+                        <td class="px-6 py-4 text-sm">
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-xs font-medium">Shifokor</span>
+                        </td>
                     </tr>
-                    <tr class="hover:bg-gray-50 text-gray-700">
-                        <td class="border border-gray-200 px-4 py-3">3</td>
-                        <td class="border border-gray-200 px-4 py-3 font-medium">Jasur</td>
-                        <td class="border border-gray-200 px-4 py-3">05.11.2000</td>
-                        <td class="border border-gray-200 px-4 py-3">O'qituvchi</td>
+                    <tr class="hover:bg-emerald-5/50 transition-colors duration-200 text-gray-700">
+                        <td class="px-6 py-4 text-sm font-medium text-gray-500">3</td>
+                        <td class="px-6 py-4 text-sm font-semibold text-gray-900">Jasur</td>
+                        <td class="px-6 py-4 text-sm">05.11.2000</td>
+                        <td class="px-6 py-4 text-sm">
+                            <span class="px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-xs font-medium">O'qituvchi</span>
+                        </td>
                     </tr>
-                    <tr class="bg-gray-50 hover:bg-gray-100 text-gray-700">
-                        <td class="border border-gray-200 px-4 py-3">4</td>
-                        <td class="border border-gray-200 px-4 py-3 font-medium">Laylo</td>
-                        <td class="border border-gray-200 px-4 py-3">19.01.2002</td>
-                        <td class="border border-gray-200 px-4 py-3">Dizayner</td>
+                    <tr class="bg-gray-50 hover:bg-emerald-5/50 transition-colors duration-200 text-gray-700">
+                        <td class="px-6 py-4 text-sm font-medium text-gray-500">4</td>
+                        <td class="px-6 py-4 text-sm font-semibold text-gray-900">Laylo</td>
+                        <td class="px-6 py-4 text-sm">19.01.2002</td>
+                        <td class="px-6 py-4 text-sm">
+                            <span class="px-3 py-1 bg-rose-100 text-rose-800 rounded-full text-xs font-medium">Dizayner</span>
+                        </td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </div>
+
 </body>
 
 </html>
