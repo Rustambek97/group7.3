@@ -2,6 +2,10 @@
 Bu loyihani birgalikda yaratamiz
 
 <<<<<<< HEAD
+# Sabirov Mavlonbek
+men birinchi loyiham
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 # Aminboyeva Jasmina 
@@ -37,3 +41,10 @@ men joshqinbek.htmlni qoshdim unga h1 qo'shdim
 =======
 >>>>>>> 22e0315877410af7a0402823db432b57385573e9
 >>>>>>> 92d455d7f88742ec881026a06fb995db291620f5
+<<<<<<< HEAD
+>>>>>>> 8dcf256438ffc9719eac14ec161a4ab2a90d88b8
+=======
+
+# Qurbonbayev Jo'shqinbek
+men rasm qo'shdim
+>>>>>>> 0bcf23d4d087138e0fc9fb6bec0c96385ef368f8
