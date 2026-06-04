@@ -2,6 +2,9 @@
 Bu loyihani birgalikda yaratamiz
 
 <<<<<<< HEAD
+# Allayarov Ibrohim
+=======
+<<<<<<< HEAD
 # Sabirov Mavlonbek
 men birinchi loyiham
 =======
@@ -24,6 +27,7 @@ men birinchi loyiham
 <<<<<<< HEAD
 >>>>>>> 22e0315877410af7a0402823db432b57385573e9
 # Allayarov Ibrohim
+>>>>>>> 926308ddc0ba07a9106e4f364f1bf19fd64194bf
 # Rustambek Baltayev 
 men rustambek.html qo'shdim
 unga 1 ta h1 kiritdim
@@ -33,6 +37,11 @@ unga 1 ta h1 kiritdim
 
 # Qurbonbayev Jo'shqinbek
 men joshqinbek.htmlni qoshdim unga h1 qo'shdim
+<<<<<<< HEAD
+
+# Odilbekov Farruxbek
+men titleni o'zgartirdim
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> 5191619ea9889848d4b0ff4ac40e7b6f7ea4a578
@@ -48,3 +57,4 @@ men joshqinbek.htmlni qoshdim unga h1 qo'shdim
 # Qurbonbayev Jo'shqinbek
 men rasm qo'shdim
 >>>>>>> 0bcf23d4d087138e0fc9fb6bec0c96385ef368f8
+>>>>>>> 926308ddc0ba07a9106e4f364f1bf19fd64194bf
