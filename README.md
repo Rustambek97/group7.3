@@ -2,6 +2,16 @@
 Bu loyihani birgalikda yaratamiz
 
 <<<<<<< HEAD
+# Oltibaev Miraziz
+=======
+<<<<<<< HEAD
+# Allayarov Ibrohim
+=======
+<<<<<<< HEAD
+# Sabirov Mavlonbek
+men birinchi loyiham
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 # Aminboyeva Jasmina 
@@ -20,6 +30,7 @@ Bu loyihani birgalikda yaratamiz
 <<<<<<< HEAD
 >>>>>>> 22e0315877410af7a0402823db432b57385573e9
 # Allayarov Ibrohim
+>>>>>>> 926308ddc0ba07a9106e4f364f1bf19fd64194bf
 # Rustambek Baltayev 
 men rustambek.html qo'shdim
 unga 1 ta h1 kiritdim
@@ -30,13 +41,37 @@ unga 1 ta h1 kiritdim
 # Qurbonbayev Jo'shqinbek
 men joshqinbek.htmlni qoshdim unga h1 qo'shdim
 <<<<<<< HEAD
+
+# Odilbekov Farruxbek
+men titleni o'zgartirdim
+=======
+<<<<<<< HEAD
 =======
 >>>>>>> 5191619ea9889848d4b0ff4ac40e7b6f7ea4a578
 >>>>>>> 5c22b56ae6954469b55760824577d9300ebcdc75
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 >>>>>>> 22e0315877410af7a0402823db432b57385573e9
 >>>>>>> 92d455d7f88742ec881026a06fb995db291620f5
+<<<<<<< HEAD
 
 # Ikromov Xudayor
 men xudayor htmlni qo'shdim
+=======
+<<<<<<< HEAD
+>>>>>>> 8dcf256438ffc9719eac14ec161a4ab2a90d88b8
+=======
+
+# Qurbonbayev Jo'shqinbek
+men rasm qo'shdim
+>>>>>>> 0bcf23d4d087138e0fc9fb6bec0c96385ef368f8
+>>>>>>> 926308ddc0ba07a9106e4f364f1bf19fd64194bf
+<<<<<<< HEAD
+#  Ikromov xudashkur
+men h1 qo'shdim
+=======
+>>>>>>> 37c022d0026ade8fa58722d95eec7a29d9e1d7ea
+>>>>>>> e339555f3bf2bfb7c5f1063f2280b6c621e9a71d
+>>>>>>> a44d64ab953e7291dd5ca053ba33815d4760c892
