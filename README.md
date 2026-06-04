@@ -3,7 +3,11 @@ Bu loyihani birgalikda yaratamiz
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Aminboyeva Jasmina 
+=======
+# Ravshanova Intizor
+>>>>>>> 90133c9a8034fe7798fd0fa33c4d8f4496c67547
 =======
 <<<<<<< HEAD
 # Allayarov Ibrohim
