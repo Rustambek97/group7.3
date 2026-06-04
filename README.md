@@ -58,3 +58,5 @@ men titleni o'zgartirdim
 men rasm qo'shdim
 >>>>>>> 0bcf23d4d087138e0fc9fb6bec0c96385ef368f8
 >>>>>>> 926308ddc0ba07a9106e4f364f1bf19fd64194bf
+#  Ikromov xudashkur
+men h1 qo'shdim
