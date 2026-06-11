@@ -8,30 +8,99 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <nav class="text-black p-4 shadow ">
+<body class="bg-white font-sans text-slate-800 selection:bg-purple-200">
+    <div class="shadow">
+        <nav class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between ">
+            <div class="flex items-center space-x-2">
+                <span class="text-xl font-bold">Start Exam</span>
+            </div>
+            <nav class="flex items-center space-x-8 text-sm font-medium text-slate-600">
+                <a href="#" class="transition">Features</a>
+                <a href="#" class="transition">Download</a>
+                <button
+                    class="bg-[#3b44f6] text-white px-4 py-2 rounded-full flex items-center space-x-2 text-xs font-semibold shadow-md transition">
+                    <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                        <path
+                            d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7z" />
+                    </svg>
+                    <span>Send Feedback</span>
+                </button>
+            </nav>
+        </nav>
+    </div>
 
-        <div class="flex space-x-6">
-            <a href="" class=""></a>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
+
+    <section class="max-w-7xl mx-auto px-6 pt-16 pb-24 md:pt-24 grid md:grid-cols-2 gap-12 items-center relative">
+
+        <div
+            class="absolute left-1/2 bottom-1/4 text-blue-600 font-bold text-xl opacity-80 pointer-events-none hidden md:block">
+            ×</div>
+
+        <div class="max-w-xl space-y-6">
+            <h1 class="text-4xl md:text-6xl font-bold">
+                Showcase your app beautifully.
+            </h1>
+            <p class="text-slate-500 text-base md:text-lg">
+                Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!
+            </p>
+
+            <div class="flex gap-4 pt-4">
+                <a href="#" class=" ">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt=""
+                        class="h-12 w-auto">
+                </a>
+                <a href="#" class=" ">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+                        alt="" class="h-12 w-auto">
+                </a>
+            </div>
         </div>
 
-    </nav>
+        <div class=" flex justify-center items-center">
 
-    <section class="bg-gray-100 min-h-screen flex">
-        <div class="grid grid-cols-2 items-center max-w-6xl mx-auto px-4">
-             <div class="max-">
-            <h1 class="text-3xl font-bold">Showcase your <br> app beautifully</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sapiente officia minima dolores perspiciatis reiciendis alias debitis laboriosam maxime ad.</p>
+
+            <div>
+                <img src="https://avatars.mds.yandex.net/i?id=6bb4f2f7c051b7794a2e191e8f56372cd2f51016-10023671-images-thumbs&n=13"
+                    alt="">
+            </div>
         </div>
-        <div>
-            <img src="https://cdn2-static.ntv.ru/home/news/2023/20230817/r-fon_sno.jpg" alt="App Showcase " class="w-full rounded-lg shadow-lg">
-        </div>
-        </div>
-       
     </section>
+    <section class="bg-gradient-to-r from-blue-500 via-purple-500 to-rose-300 text-white py-20 px-6 text-center">
+        <div class="max-w-3xl mx-auto space-y-6">
+            <p class="text-xl md:text-3xl">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, quae. Tenetur laboriosam ratione
+                totam enim.
+            </p>
+
+            <div class="pt-4 flex text-center">
+                <span class="font-black text-2xl">TNW</span>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 pt-16 pb-24 md:pt-24 grid md:grid-cols-2 gap-12 items-center relative">
+
+         <div class=" flex justify-center items-center">
+
+
+            <div>
+                <img src="https://avatars.mds.yandex.net/i?id=6bb4f2f7c051b7794a2e191e8f56372cd2f51016-10023671-images-thumbs&n=13"
+                    alt="">
+            </div>
+        </div>
+
+        <div>
+            <div class="grid grid-cols-2">
+                <div class="p-4">
+                    <h2 class="text-2xl font-bold mb-4"></h2>
+                    <p class="text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+
+            </div>
+        </div>
+
+    </section>
+
 </body>
 
 </html>

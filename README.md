@@ -56,6 +56,11 @@ men titleni o'zgartirdim
 >>>>>>> 22e0315877410af7a0402823db432b57385573e9
 >>>>>>> 92d455d7f88742ec881026a06fb995db291620f5
 <<<<<<< HEAD
+
+# Ikromov Xudayor
+men xudayor htmlni qo'shdim
+=======
+<<<<<<< HEAD
 >>>>>>> 8dcf256438ffc9719eac14ec161a4ab2a90d88b8
 =======
 
@@ -64,9 +69,18 @@ men rasm qo'shdim
 >>>>>>> 0bcf23d4d087138e0fc9fb6bec0c96385ef368f8
 >>>>>>> 926308ddc0ba07a9106e4f364f1bf19fd64194bf
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Qurbonbayev Jo'shqinbek
 men style qo'shdim
 =======
 >>>>>>> 37c022d0026ade8fa58722d95eec7a29d9e1d7ea
 >>>>>>> 620b2ce25a7892b301a60a4f1e6a703f079cd391
+=======
+#  Ikromov xudashkur
+men h1 qo'shdim
+=======
+>>>>>>> 37c022d0026ade8fa58722d95eec7a29d9e1d7ea
+>>>>>>> e339555f3bf2bfb7c5f1063f2280b6c621e9a71d
+>>>>>>> a44d64ab953e7291dd5ca053ba33815d4760c892
+>>>>>>> 378844f2e17abca01e1698b1470aca889a4a46ec
