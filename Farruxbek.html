@@ -1,67 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        h1 {
-            text-align: center;
-            color: chocolate;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
         }
-        img{
-            text-align: center;
-            border-radius: 10%;
-            margin: auto;
-            margin-top: 10px;
-            margin-bottom: 10px;
+
+        body {
+            color: white;
         }
-        table{
-            border: 1px solid black;
-            border-collapse: collapse;
-            width: 80%;
-            text-align: center;
-            margin: auto;
+
+        header {
+            color:black;
+            padding: 15px 5%;
+            width: 100%;
         }
-        tr{
-            border: 1px solid black;
+
+        .head {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
-        th{
-            border: 1px solid black;
+
+        .Fotograp h1 {
+            font-size: 24px;
+            font-weight: bold;
         }
-        td{
-            border: 1px solid black;
+
+        .nav {
+            display: flex;
+            align-items: center;
+            gap: 30px;
         }
+
+        .sozlar {
+            display: flex;
+            gap: 20px;
+        }
+
+        .sozlar p {
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .contact {
+            text-align: right;
+            font-size: 12px;
+            color: #555;
+        }
+
+        .contact p {
+            font-size: 11px;
+            margin-bottom: 2px;
+        }
+
+        .raqam {
+            font-size: 16px;
+            font-weight: bold;
+            color: black;
+        }
+
+        .tel {
+            border: 1px solid #888;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 13px;
+        }
+
+        section {
+            height: 100vh;
+            background: url('https://avatars.mds.yandex.net/i?id=78f7d46cd6abd0dc90ece9e59b21113d14d075a0-4496278-images-thumbs&n=13') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            padding: 0 8%;
+        }
+
+        .content {
+            max-width: 600px;
+        }
+
+        .content h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 16px;
+            margin-bottom: 35px;
+            color: white;
+        }
+
+        .btn {
+            display: flex;
+            gap: 15px;
+        }
+
+        button {
+            padding: 14px 28px;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: 600;
+            border: none;
+        }
+
+        .orange {
+            background-color: rgb(212, 142, 12);
+            color: white;
+        }
+
+        .white {
+            background-color: white;
+            color: rgb(212, 142, 12);
+        }
+
+        
     </style>
 </head>
+
 <body>
-    <h1>Farruxbek Odilbekov</h1>
-    <img src="https://picsum.photos/400/300" alt="">
-    <table>
-        <tr>
-            <th>No'</th>
-            <th>Ismi</th>
-            <th>Familyasi</th>
-            <th>Yoshi</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Mavlon</td>
-            <td>Oripov</td>
-            <td>13</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Miraziz</td>
-            <td>Zokirov</td>
-            <td>11</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Hayrulla</td>
-            <td>Shokirov</td>
-            <td>14</td>
-        </tr>
-    </table>
+
+    <header>
+        <div class="head">
+            <div class="Fotograp">
+                <h1>Fotograp</h1>
+            </div>
+            <div class="nav">
+                <div class="sozlar">
+                    <p>Sharh</p>
+                    <p>Kontakt</p>
+                </div>
+                <div class="contact">
+                    <p>Nomer</p>
+                    <div class="raqam">+ 7 495 123-45-67</div>
+                </div>
+                <button class="tel">Tel qilish</button>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="content">
+            <h1>Fotograp bu <br> sizning shahringiz</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dicta laboriosam quidem aperiam
+                consectetur, odit, laborum eligendi sunt, ratione quam necessitatibus beatae totam voluptate velit ipsam
+                adipisci libero dolorum? Optio eveniet deserunt sunt fuga voluptatem quod ab explicabo dolor eos.</p>
+                
+            <div class="btn">
+                <button class="orange">Fotograpni ko'rish</button>
+                <button class="white">Tanishish</button>
+            </div>
+        </div>
+
+    </section>
+
 </body>
+
 </html>
