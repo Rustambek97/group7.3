@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bavariya mavlonbek</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background-image: url("image.png");
+            background-size: cover;
+            background-position: center;
+            color:white;
+        }
+
+        header {
+            width: 100%;
+            padding: 25px 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 35px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 600;
+            transition: .3s;
+        }
+
+        nav a:hover {
+            color: #ff3b6f;
+        }
+
+        .auth {
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 30px;
+            color: #fff;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .login {
+            background: #d62450;
+        }
+
+        .signup {
+            background: #4b6cff;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 80vh;
+            padding: 0 80px;
+        }
+
+        .content {
+            max-width: 520px;
+        }
+
+        .content h1 {
+            font-size: 78px;
+            line-height: 1;
+            margin-bottom: 30px;
+        }
+
+        .content p {
+            color: #d5d5d5;
+            line-height: 1.8;
+            margin-bottom: 35px;
+        }
+
+        .actions {
+            display: flex;
+            gap: 20px;
+        }
+
+        .buy {
+            background: #d62450;
+        }
+
+        .register {
+            background: #4b6cff;
+        }
+
+
+        .css {
+            position: absolute;
+            right: 60px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .css a {
+            width: 50px;
+            height: 50px;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .logo {
+            display: flex;
+           
+        }
+        img {
+            width: 95px;
+            height: 80px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <div class="bayern-logo"><img src="image copy.png" alt=""></div>
+        </div>
+
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT THE CLUB</a>
+            <a href="#">FAQ</a>
+            <a href="#">NEWS</a>
+            <a href="#">RULES</a>
+            <a href="#">CONTACTS</a>
+        </nav>
+
+        <div class="auth">
+            <button class="btn login">LOGIN</button>
+            <button class="btn signup">SIGN UP</button>
+        </div>
+    </header>
+
+    <section class="hero">
+
+        <div class="content">
+            <h1>FC BAYERN<br>FAN TOKEN</h1>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+            </p>
+
+            <div class="actions">
+                <button class="btn buy">BUY TOKEN</button>
+                <button class="btn register">REGISTER</button>
+            </div>
+        </div>
+
+
+    </section>
+
+    <div class="css">
+        <a href="#">🎄</a>
+        <a href="#">▶</a>
+        <a href="#">f</a>
+        <a href="#">𝕏</a>
+    </div>
+
+</body>
+
+</html>
